@@ -8,7 +8,7 @@
 int main(void)
 {
 	char alp_u[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char alp_l[26] = "abcdefjhijklmnopqrstuvwxyz";
+	char alp_l[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0 ; i < 26; i++)
@@ -21,6 +21,6 @@ int main(void)
 		putchar(alp_u[i]);
 	}
 
-	putchar('\n');	
+	putchar('\n');
 	return (0);
 }
